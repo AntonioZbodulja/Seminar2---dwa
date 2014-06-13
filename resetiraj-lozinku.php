@@ -139,8 +139,8 @@ $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->SMTPSecure = "tls";                 // sets the prefix to the servier
 $mail->Host       = "smtp.gmail.com";      // sets GMAIL as the SMTP server
 $mail->Port       = 25;                   // set the SMTP port for the GMAIL server
-$mail->Username   = "cloudinfotest@gmail.com";  // GMAIL username
-$mail->Password   = "cloud231925info";            // GMAIL password
+$mail->Username   = "";  // GMAIL username
+$mail->Password   = "";            // GMAIL password
 
 $mail->SetFrom('lozinka@vacator.com', 'Vacator');
 
